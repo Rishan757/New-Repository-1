@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new-project 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+  
+   
+<nav>
+    <ul class="nav-upper
+     flex-space-around">
+        <li class="nav-list">
+         <a href="#"
+          class="nav_links">Home </a>
+        
+        </li>
+
+        <li class="nav-list">
+            <a href="#"
+             class="nav_links">Register </a>
+               
+           </li>
+
+           <li class="nav-list">
+            <a href="#"
+             class="nav_links">Login </a>
+          
+               
+           </li>
+
+           <li class="nav-list">
+            <a href="#"
+             class="nav_links">Logout </a>
+            
+           </li>
+
+           <li class="nav-list">
+            <a href="#"
+             class="nav_links">Contact </a>
+             
+           </li>
+
+           <li class="nav-list">
+            <a href="#"
+             class="nav_links">
+            <img 
+            class="profile-icon" src="image/IMG_20230614_164314 (2).jpg" alt="">
+            </a>
+          
+           </li>
+    </ul>
+         
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+            <a href="index.html" class= "nav-brand 
+            nav_links"> Shopping Express</a>
+        </li>
+
+        <li class="nav-list">
+          <a href="/cart.html" class=" nav-brand nav_links"> 
+            <span><i class="fa-solid fa-cart-shopping"> </i></span>
+            Cart 2 product-- $150.25
+          </a>
+      </li>
+        </ul>
+</nav>
+
+<header class="header">
+  <div class="banner flex-space-around">
+    <marquee class="banner-title" behavior="" direction="">50% Sales going on</marquee>
+  </div>
+
+</header>
+
+<div class="features flex-space-around">
+  <article class="feature flex-center">
+    <i class="fa-solid fa-truck feature-icon"></i>
+    <h3>Shipping within 7 days</h3>
+
+  </article>
+  <article class="feature flex-center">
+    <i class="fa-brands fa-rocketchat feature-icon"></i>
+    <h3>Support 24/7</h3>
+
+  </article>
+  <article class="feature flex-center">
+    <i class="fa-regular fa-credit-card feature-icon"></i>
+    <h3>Safe Payment</h3>
+
+  </article>
+</div>
+
+<main class="flex-center">
+  <div class="sidebar">
+    <section class="categories-section"> 
+      <h3 class="section title"> Categories</h3>
+       <ul class="list">
+        <li class="list-item">
+        <label for="T-Shirt">
+          <input type="checkbox" name="T-Shirt" id="T-Shirt">
+          T-Shirt
+        </label>
+
+        </li>
+
+        <li class="list-item">
+          <label for="watch">
+            <input type="checkbox" name="watch" id="watch">
+            watch
+          </label>
+          
+          </li>
+          <li class="list-item">
+            <label for="Shirt">
+              <input type="checkbox" name="Shirt" id="Shirt">
+              Shirt
+            </label>
+            
+            </li>
+            <li class="list-item">
+              <label for="phone">
+                <input type="checkbox" name="phone" id="phone">
+                phone
+              </label>
+              
+              </li>
+              <li class="list-item">
+                <label for="Laptop">
+                  <input type="checkbox" name="Laptop" id="Laptopt">
+                  Laptop
+                </label>
+                
+                </li>
+       </ul>
+    </section>
+
+
+    <section class="Price-section"> 
+      <h3 class="section title"> Price</h3>
+       <ul class="list">
+        <li class="list-item">
+        <label for="Price1">
+          <input type="radio" name="Price" id="Price1" value="[$0-$50]">
+          $0-$50
+        </label>
+
+        </li>
+
+        <li class="list-item">
+          <label for="Price2">
+            <input type="radio" name="Price" id="price2" value="[$51-$100]">
+            $51-$100
+          </label>
+          
+          </li>
+          <li class="list-item">
+            <label for="Price3">
+              <input type="radio" name="Price" id="Price3" value="[$101-$200]">
+              $101-$200
+            </label>
+            
+            </li>
+            
+       </ul>
+    </section>
+
+    <section class="shipping-option"> 
+      <h3 class="section title"> shipping-option</h3>
+       <ul class="list">
+        <li class="list-item">
+        <label for="free">
+          <input type="radio" name="shipping" id="free" value="Free-shipping">
+          Free-shipping
+        </label>
+
+        </li>
+
+        <li class="list-item">
+          <label for="paid">
+            <input type="radio" name="shipping" id="paid" value="Paid">
+     paid
+          </label>
+          
+          </li>
+            
+       </ul>
+    </section>
+  </div>
+  <div class="main-content">
+    <section class="action flex-space-around">
+      <div class="action-sort">
+        <label for="sort"> sort by</label>
+        <select name="sort" id="sort">
+          <option value="sold"> Most sold frist</option> 
+          <option value="rating"> Most rating frist</option>
+          <option value="price"> chepest frist</option>
+          <option value="arrivel"> newst frist</option>
+          <option value="discount"> Biggest discount frist</option>     
+        </select>
+      </div>
+
+      <div class="action-search">
+        <input type="text " placeholder="search product">
+        <button class="btn"> <i class="fa-sharp fa-solid fa-magnifying-glass"> </i></button>
+      </div>
+    </section>
+    <div class="products">
+      <article class="product card">
+        <div class="badge">
+          <span> 5 in stock</span>
+          <hr class="hr-design">
+          <span> 3 sold</span>
+        </div>
+        <img class="product-image" src="image/Argentina-Copa-America-2024-Jersey-scaled.jpg" alt="product1">
+       <div class="product-body">
+        <h3 class="product-name"> Argentina Copa america 2024</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+        </p>
+        <h4 class="product-price"> $100.50</h4>
+        <p class="product-rating"> Rating 4.5/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+
+      <article class="product card">
+        <div class="badge">
+          <span> 9 in stock</span>
+          <hr class="hr-design">
+          <span> 7 sold</span>
+        </div>
+        <img class="product-image" src="image/download (1).jpeg" alt="product2">
+       <div class="product-body">
+        <h3 class="product-name"> i-phone 15 pro max</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+        </p>
+        <h4 class="product-price"> $500.50</h4>
+        <p class="product-rating"> Rating 4.5/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+
+      <article class="product card">
+        <div class="badge">
+          <span> 6 in stock</span>
+          <hr class="hr-design">
+          <span> 5 sold</span>
+        </div>
+        <img class="product-image" src="image/rolex-watches-navigation-cosmograph-daytona-m126509-0001-10168_rsa_daytona_40_m126509_0001_carrousel_24.jpg" alt="product3">
+       <div class="product-body">
+        <h3 class="product-name">Rolex watch</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        </p>
+        <h4 class="product-price"> $225.50</h4>
+        <p class="product-rating"> Rating 3.5/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+
+      <article class="product card">
+        <div class="badge">
+          <span> 5 in stock</span>
+          <hr class="hr-design">
+          <span> 3 sold</span>
+        </div>
+        <img class="product-image" src="image/images (1).jpeg" alt="product4"> 
+       <div class="product-body">
+        <h3 class="product-name"> Laptop</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+        </p>
+        <h4 class="product-price"> $300.50</h4>
+        <p class="product-rating"> Rating 4.5/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+
+      <article class="product card">
+        <div class="badge">
+          <span> 7 in stock</span>
+          <hr class="hr-design">
+          <span> 3 sold</span>
+        </div>
+        <img class="product-image" src="image/images.jpeg" alt="product5">
+       <div class="product-body">
+        <h3 class="product-name"> Nike Shoes</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+        </p>
+        <h4 class="product-price"> $200.50</h4>
+        <p class="product-rating"> Rating 4.5/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+
+      <article class="product card">
+        <div class="badge">
+          <span> 10 in stock</span>
+          <hr class="hr-design">
+          <span> 5 sold</span>
+        </div>
+        <img class="product-image" src="image/4b4bb950a491e9311fecbb1e25cd7426.jpg" alt="product6">
+       <div class="product-body">
+        <h3 class="product-name"> Fashion shirt</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+        </p>
+        <h4 class="product-price"> $150.50</h4>
+        <p class="product-rating"> Rating 4.1/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+
+      <article class="product card">
+        <div class="badge">
+          <span> 10 in stock</span>
+          <hr class="hr-design">
+          <span> 4 sold</span>
+        </div>
+        <img class="product-image" src="image/images (2).jpeg" alt="product7">
+       <div class="product-body">
+        <h3 class="product-name"> Sunglass</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+        </p>
+        <h4 class="product-price"> $50.50</h4>
+        <p class="product-rating"> Rating 3.5/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+
+      <article class="product card">
+        <div class="badge">
+          <span> 10 in stock</span>
+          <hr class="hr-design">
+          <span> 5 sold</span>
+        </div>
+        <img class="product-image" src="image/download (3).jpeg" alt="product8">
+       <div class="product-body">
+        <h3 class="product-name"> Slippers</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+        </p>
+        <h4 class="product-price"> $50.50</h4>
+        <p class="product-rating"> Rating 4.1/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+      <article class="product card">
+        <div class="badge">
+          <span> 10 in stock</span>
+          <hr class="hr-design">
+          <span> 6 sold</span>
+        </div>
+        <img class="product-image" src="image/Streetwear-Fashion-Black-Jeans-Men-Elastic-Slim-Fit-Destroyed-Ripped-Jeans-Zipper-Designer-Hip-Hop-Punk.webp" alt="product9">
+       <div class="product-body">
+        <h3 class="product-name"> Men's Jence</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <p class="product-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. .
+        </p>
+        <h4 class="product-price"> $200.50</h4>
+        <p class="product-rating"> Rating 4.1/5</p>
+        <button class="btn product-button"> Add to Card</button>
+       </div>
+      </article>
+      
+      
+
+    </div>
+    <div class="pagination">
+      <button class="btn pagination-btn">
+        <i class="fas fa-less-than"></i>
+      </button>
+      <button class="btn pagination-btn">2</button>
+      <button class="btn pagination-btn">3</button>
+      <button class="btn pagination-btn">4</button>
+      <button class="btn pagination-btn">5</button>
+      <button class="btn pagination-btn">6</button>
+      <button class="btn pagination-btn">7</button>
+      <button class="btn pagination-btn">8</button>
+      <button class="btn pagination-btn">9</button>
+      <button class="btn pagination-btn">10</button>
+      <button class="btn pagination-btn">...</button>
+      <button class="btn pagination-btn"> 50 </button>
+      <button class="btn pagination-btn">
+        <i class="fas fa-greater-than"></i>
+      </button>
+    </div>
+  </div>
+</main>
+
+
+<footer class=" footer flex-space-around">
+  <div class="flex-space-around">
+    <label for="subscribe"> Subcribe to Love Fashion</label>
+    <input type="email" id="subcribe"
+     name="subcribe" class="footer-input" placeholder="Your Email Address">
+     <button class="btn btn-subscribe"> subscribe</button>
+  </div>
+  <div>
+    <p>&copy; Copyright 2024 Rishan Ahmed</p>
+  </div>
+</footer>
+   
+    
+</body>
+</html>
